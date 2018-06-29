@@ -1,0 +1,63 @@
+
+.ms3__loader {
+  display: none;
+}
+
+.ms3__message {
+  display: none;
+}
+
+.ms3__page {
+  max-width: 1200px;
+}
+
+.ms3__page .ms3__block {
+  padding-bottom: 25px;
+  margin-bottom: 25px;
+  border-bottom: 1px #0080FF solid;
+}
+
+.ms3__page .ms3__block .row {
+  height: 75px;
+  align-items: center;
+}
+
+.ms3__page .ms3__block .row.larger {
+  height: 150px;
+}
+
+.ms3__page label {
+  font-weight: bold;
+}
+
+.ms3__page h4 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #0080FF;
+}
+
+.ms3__page .ms3__block input[type=button],
+.ms3__page input[type=submit] {
+  background: #0080FF;
+  box-shadow: none;
+  border-radius: 3px;
+  border: none;
+  font-weight: 300;
+  text-shadow: none;
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-size: 12px;
+  padding: 10px 15px 9px 15px;
+  box-sizing: border-box;
+  height: auto;
+  line-height: 16px;
+}
+
+.ms3__page .ms3__block input[type=button]:hover,
+.ms3__page input[type=submit]:hover {
+  background-color: #0069FF;
+}
+
+#message {
+  margin: 0;
+}
